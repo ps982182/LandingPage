@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body {
+    background-color: #063d6a;
+}
+.head {
+    height: 60px;
+    display: flex;
+}
+.first > img {
+    height: 50px;
+    width: 130px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.second {
+    margin-top: 50px;
+    margin-left: 235px;
+}
+.second li {
+    display: inline;
+    padding: 25px;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative; /* Make li relative for absolute positioning of dropdown */
+}
+li:hover {
+    cursor: pointer;
+    font-weight: 800;
+}
+.butt {
+    margin-top: 40px;
+    margin-left: 120px;
+}
+button:hover {
+    background-color: rgb(7, 7, 7);
+    cursor: pointer;
+}
+.get {
+    border: 3px solid rgb(59, 232, 232);
+    border-radius: 15px;
+    width: 120px;
+    height: 40px;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 800;
+}
+.but p::before {
+    content: ">";
+    font-weight: 900;
+}
+.neeche {
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    background: rgb(104, 172, 249);
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    border: none;
+    color: white;
+}
+.neeche:hover {
+    background-color: black;
+    border: 2px solid black;
+}
+.outer {
+    display: flex;
+    margin-top: 80px;
+}
+.bussi{
+    text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px rgb(29, 133, 197),
+        0 0 30px rgb(8, 50, 139),
+        0 0 40px rgb(112, 5, 228),
+        0 0 55px rgb(5, 5, 100),
+        0 0 70px rgb(0, 15, 128);
+}
+
+img {
+    margin-left: 300px;
+    width: 500px;
+    height: 350px;
+}
+.pehla {
+    margin-left: 160px;
+    margin-top: 60px;
+}
+.pehla h1 {
+    color: rgb(255, 255, 255);
+    font-size: 47px;
+    letter-spacing: 1.4px;
+}
+.pehla p {
+    margin-top: 40px;
+    letter-spacing: 0.8px;
+    color: rgb(248, 243, 243);
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 20px;
+}
+.but {
+    margin-top: 40px;
+    display: flex;
+}
+.but p {
+    padding-left: 50px;
+    color: white;
+    margin-top: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.foot {
+    margin-top: 60px;
+    height: 80px;
+    background-color: white;
+}
+.first h1 {
+    margin-left: 40px;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 40px;
+}
+.foot ul, li {
+    color: black;
+    margin-top: 15px;
+    font-weight: 800;
+    font-size: 25px;
+}
+.foot ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+ul.dropdown {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: rgb(6, 61, 106);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+ul.dropdown li {
+    color: white;
+    display: block;
+    list-style-type: none;
+    padding: 8px 16px;
+}
+ul.dropdown li:hover {
+    background-color: rgb(59, 232, 232);
+    color: black;
+}
+li:hover ul.dropdown {
+    display: block;
+}
+.photo{
+    height: 410px;
+    width: 410px;
+    background-image: url(c.jpg);
+    background-size: cover;
+    border: 1px solid #063d6a;
+    border-radius: 50%;
+    margin-left: 260px;
+    margin-top:40px;
+}
